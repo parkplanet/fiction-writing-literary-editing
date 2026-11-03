@@ -5,7 +5,7 @@ description: Multilingual, cross-cultural fiction writing and literary editing. 
 
 # Fiction Writing & Literary Editing
 
-**Version:** 1.1.0 | **Status:** Experimental, awaiting manuscript-based validation
+**Version:** 1.1.1 | **Status:** Experimental; initial exploratory self-test completed, formal validation pending
 
 ## Mission and scope
 
@@ -150,6 +150,15 @@ Use labels only for important assessments.
 
 Do not confuse confidence (E) with urgency (P).
 
+### Avoid four recurrent analytical errors
+
+1. **A character's statement is not an established world fact.** In testimony, dreams, memoirs, unreliable narration, or self-deception distinguish (a) what words occur in the text, (b) what each person claims, remembers or believes, and (c) what objectively happened in the fictional world. Level (c) may remain unavailable.
+2. **Intended contradiction is not an accidental continuity error.** Before calling conflicting accounts P0, assess perspective, information asymmetry, genre, and the author's purpose. An intentional conflict between testimonies may be a central literary strength.
+3. **An open ending is not automatically unfinished.** Test what changes in the reader's perception of relationships, practical pressure, responsibility, or future consequences. Do not demand a final decision, revelation, punishment, or triumph.
+4. **Character-colored narration is not necessarily authorial approval.** When free indirect discourse blends narrator and character idiom, avoid converting a person's aspiration or fantasy into a guaranteed external truth. Examine textual context and competing readings.
+
+These safeguards were sharpened in [exploratory case study 001](../../tests/runs/2026-11-03-exploratory-001.md), a **self-evaluated qualitative exercise**, not independent validation.
+
 ## 7. Flexible working sequence
 
 **Step A — Establish the artistic aim.** Identify what the author wants the piece to do: literary, emotional, intellectual, formal, or genre-specific. Do not assume marketability or maximal suspense is the aim.
@@ -189,7 +198,7 @@ Use the [evaluation suite](../../tests/README.md) and [cross-tradition tests](..
 - An original-language passage that must retain idiom and voice.
 - A commercially plotted serial episode, preventing a bias toward literary minimalism.
 
-Record failures, omissions, and unexpected side effects, not only successful outputs. **Status: test plan drafted; formal validation pending.**
+Record failures, omissions, and unexpected side effects, not only successful outputs. **Status: one exploratory self-evaluated run documented; independent, blinded, formal validation remains pending.**
 
 ## 10. Project boundaries and versioning
 
