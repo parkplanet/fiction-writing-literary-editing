@@ -33,3 +33,12 @@ For each case, record:
 ## Reporting
 
 Use **pass / partial / fail / inconclusive** for each completed case with an explanation. A planned test is not a passing test.
+
+## Public calibration and controlled comparison (added 2026-11-03)
+
+- [Neutral calibration cases, T01–T10](calibration-v01.md): six English and four Chinese original-fiction diagnostic prompts.
+- [A/B protocol and scoring anchors](ab-evaluation-protocol.md): matched settings, isolated generations, anonymized independent judgments and explicit failure checks.
+- [Scorecard template](scorecard-template.csv): structured CSV for future actual scored trials.
+- [Calibration preflight checks](runs/2026-11-03-calibration-preflight.md): verifies test identifiers, scoring-anchor coverage, and one intentional chronology error; **does not evaluate model skill quality**.
+
+The calibration set and its answer-key anchors are public, so they are **not hidden holdouts**. A genuine blind evaluation needs new unseen examples, independent generation and judging. No claim of Skill superiority should be made until such comparisons are completed.
