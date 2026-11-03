@@ -15,6 +15,6 @@ This directory contains the installable skill.
 5. Treat manuscript facts, research evidence, critical interpretation and authorial preferences separately.
 6. Record observed shortcomings and retest before upgrading a rule.
 
-**Version:** 1.1.0 — experimental.
+**Version:** 1.1.1 — experimental; first exploratory run documented.
 
 **注意：** 核心指令使用英文以方便国际用户发现，但写作和编辑会遵循作者使用的语言。此 Skill 不局限于中国小说，也不预设某一种国家文学风格。
