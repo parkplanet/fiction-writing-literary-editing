@@ -1,18 +1,20 @@
-# 小说创作与文学编辑专家 Skill
+# Fiction Writing & Literary Editing — Skill
 
-这是本项目的核心 Skill 目录。
+This directory contains the installable skill.
 
-## 文件
+- [SKILL.md](SKILL.md) — Core English-language instructions for multilingual fiction writing and literary editing.
+- [International literary reference map](../../references/international-literary-traditions.md) — Methods, limits and academic links for Japanese, Russian and French literary traditions, alongside a broader comparative approach.
+- [Cross-tradition tests](../../tests/cross-tradition-evaluations.md) — Planned evaluation cases, not yet completed.
 
-- **SKILL.md**：角色定义、工作原则、知识地图、研究纪律、创作与编辑流程、质量评估和项目记忆规则。
+## Use
 
-## 使用
+1. Import this directory into an environment supporting Agent Skills.
+2. Work in the author's requested language, not automatically in English.
+3. Supply the relevant manuscript, most recent canon and creative constraints.
+4. Choose literary theories according to the actual problem, never by nationality alone.
+5. Treat manuscript facts, research evidence, critical interpretation and authorial preferences separately.
+6. Record observed shortcomings and retest before upgrading a rule.
 
-1. 在支持 Agent Skills 的环境中导入本目录。
-2. 按当前任务调用小说构思、人物研究、结构编辑、历史核查或文本修订能力。
-3. 对长期小说项目，另行提供最新有效的大纲、人物档案和正文；不要将所有项目资料硬编码进通用 Skill。
-4. 每次实战后记录有效方法、失败案例和需要修订的规则，再决定是否升级版本。
+**Version:** 1.1.0 — experimental.
 
-## 版本说明
-
-当前版本为 **1.0.0**，属于可测试的初版。它不代表全部理论书籍均已完成逐页精读，也不代表所有流程已经通过真实手稿验证。
+**注意：** 核心指令使用英文以方便国际用户发现，但写作和编辑会遵循作者使用的语言。此 Skill 不局限于中国小说，也不预设某一种国家文学风格。
