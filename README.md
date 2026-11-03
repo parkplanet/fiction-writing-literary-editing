@@ -83,3 +83,7 @@ This is an **experimental research-and-method framework**, not a proven replacem
 ## License
 
 No license has been selected. Public visibility is not equivalent to an open-source license.
+
+### Evaluation materials
+
+The [public calibration set](tests/calibration-v01.md) supplies ten original diagnostic tasks, while the [A/B evaluation protocol](tests/ab-evaluation-protocol.md) defines what would count as independent comparative evidence. A [fixture preflight check](tests/runs/2026-11-03-calibration-preflight.md) confirms structural consistency but **not model performance**. Neither GitHub pageviews nor a polished response is a measure of editorial competence.
