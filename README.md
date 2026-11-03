@@ -2,7 +2,7 @@
 
 **An open, multilingual AI skill for serious fiction writing, literary research, and manuscript editing.**
 
-> Version **1.1.0** · Experimental · Core instructions in English · Works with fiction in any language
+> Version **1.1.1** · Experimental · Core instructions in English · Works with fiction in any language
 
 This skill helps AI collaborators research literary approaches, develop stories and characters, analyze narrative form, diagnose manuscript problems, and revise prose with evidence-based, independent judgment.
 
@@ -78,7 +78,7 @@ This repository is a source of files. Publishing to GitHub does not by itself in
 
 ## Validation status
 
-This is an **experimental research-and-method framework**, not a proven replacement for an expert editor. [Cross-tradition tests](tests/cross-tradition-evaluations.md) have been defined but **not yet executed**. Some bibliography entries are reading leads; their presence does not claim that full works have been read or verified line by line.
+This is an **experimental research-and-method framework**, not a proven replacement for an expert editor. [One exploratory self-evaluated test run](tests/runs/2026-11-03-exploratory-001.md) has been documented using three original cases; this is **not independent or blinded validation**. Additional [cross-tradition tests](tests/cross-tradition-evaluations.md) remain planned. Some bibliography entries are reading leads; their presence does not claim that full works have been read or verified line by line.
 
 ## License
 
