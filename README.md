@@ -32,7 +32,7 @@ For detailed working questions, caveats, and research links, see [International 
 
 ## Repository layout
 
-\`\`\`text
+```text
 .
 ├── README.md
 ├── CHANGELOG.md
@@ -45,7 +45,7 @@ For detailed working questions, caveats, and research links, see [International 
 └── tests/
     ├── README.md
     └── cross-tradition-evaluations.md
-\`\`\`
+```
 
 ## Installation
 
@@ -53,9 +53,9 @@ The canonical skill definition is at [skills/fiction-writing-literary-editing/SK
 
 For a ZIP importer that recognizes Agent Skills plugin content, ensure the archive includes:
 
-\`\`\`text
+```text
 skills/fiction-writing-literary-editing/SKILL.md
-\`\`\`
+```
 
 This repository is a source of files. Publishing to GitHub does not by itself install the skill in ChatGPT or publish it to a plugin directory. Follow the target product's current installation rules.
 
