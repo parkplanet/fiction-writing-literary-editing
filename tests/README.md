@@ -1,46 +1,35 @@
 # Skill Evaluation Plan
 
-本目录用于记录小说创作与文学编辑 Skill 的实战验证。测试目标不是证明 Skill 能套用固定公式，而是检查它能否在不同作品目标下作出有证据、可解释、可修订的判断。
+This directory defines how to test the fiction-writing and literary-editing skill. **No formal regression run has yet been completed.**
 
-## 评估方法
+The evaluation is designed to check judgment, creative usefulness, manuscript grounding, research integrity, and cultural adaptability—not merely prompt compliance.
 
-每个测试案例至少记录：
+## Evaluation workflow
 
-- 输入材料与任务目标
-- Skill 的输出
-- 文本证据与采用的理论
-- 判断是否准确、是否过度推断
-- 遗漏的问题
-- 修改建议是否可执行
-- 修改后是否产生新的问题
-- 本案例促成的规则变更
+For each case, record:
+- Test date, version, user goal, prompt, and source material.
+- Actual model output.
+- Textual evidence, references and alternative interpretations.
+- Overgeneralization, missed facts, language mistakes, and cultural assumptions.
+- The cost and effectiveness of suggested revisions.
+- Retest observations after a rule changes.
 
-## 初始测试矩阵
+## Test sets
 
-| ID | 测试场景 | 主要观察点 |
-|---|---|---|
-| T01 | 同一场景的不同文风改写 | 能否控制风格且不抹去人物差异 |
-| T02 | 配角拥有独立命运 | 能否识别配角自主目标与因果链 |
-| T03 | 无重大事件的日常场景 | 是否错误地强迫每场戏制造冲突 |
-| T04 | 多人物交叉事件 | 时间线、信息差、因果和视角一致性 |
-| T05 | 隐性婚姻冲突 | 是否能分析权力、欲望、自尊和未说出口的信息 |
-| T06 | 历史城市空间 | 是否区分史实、合理推断和待核查事项 |
-| T07 | 人物自我欺骗 | 是否能提出多种解释而非单一心理标签 |
-| T08 | 长篇章节因果链 | 是否发现动机断裂、重复功能和后果缺失 |
-| T09 | 非线性叙事与开放结局 | 是否避免强行套用线性结构和封闭结局 |
-| T10 | 人物拒绝成长 | 是否能判断停滞是否具有艺术功能 |
-| T11 | 复杂道德选择 | 是否保留矛盾而非替人物做道德裁决 |
+- [Cross-tradition tests](cross-tradition-evaluations.md): Japanese, Russian, French, Chinese and additional settings, including original-language voice preservation.
+- Additional manuscript-specific tests should live in their own directories and must not be mistaken for universal writing rules.
 
-## 通过标准
+## Success criteria
 
-- 关键结论能够定位到文本或可靠来源。
-- 清楚区分事实、推论与审美判断。
-- 不虚构史料、书目、引文或阅读经历。
-- 能指出至少一种合理的替代解释。
-- 修改建议具有可执行性，并说明代价。
-- 不擅自覆盖作者已确认的设定。
-- 不把某一种理论或叙事模板当成普遍标准。
+- The response is useful for the author's specific artistic objective.
+- Major criticism is grounded in text or reliable evidence.
+- No fictional bibliography, historical fact, quotation, or claim of full-book reading.
+- Multiple plausible interpretations are considered where the evidence allows.
+- The model avoids forcing three-act structure, mandatory character growth, conflict-per-scene and other formulae.
+- It respects literary tradition without reducing a culture to a stereotype.
+- It provides actionable revision paths and explains trade-offs.
+- It preserves the author's requested language and voice.
 
-## 失败记录
+## Reporting
 
-目前尚无完成的正式回归测试。测试结果应逐案追加，不得把计划中的测试写成已经通过的测试。
+Use **pass / partial / fail / inconclusive** for each completed case with an explanation. A planned test is not a passing test.
