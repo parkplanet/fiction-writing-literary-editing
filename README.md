@@ -1,70 +1,85 @@
-# Fiction Writing & Literary Editing Skill
+# Fiction Writing & Literary Editing
 
-**小说创作与文学编辑专家**
+**An open, multilingual AI skill for serious fiction writing, literary research, and manuscript editing.**
 
-A Chinese-language, reusable AI Skill for fiction development, narrative analysis, character design, historical-fiction research, manuscript diagnosis, and literary editing.
+> Version **1.1.0** · Experimental · Core instructions in English · Works with fiction in any language
 
-> Version: **1.0.0** · Status: **Experimental baseline — requires real-world validation**
+This skill helps AI collaborators research literary approaches, develop stories and characters, analyze narrative form, diagnose manuscript problems, and revise prose with evidence-based, independent judgment.
 
-## What this Skill is for
+It is **not a Chinese-only writing assistant**, **not an English-only style guide**, and **not a universal formula for successful novels**. Its source materials and methods draw on Japanese, Russian, French, Chinese, and other literary traditions. The actual manuscript and the author's artistic goals determine which tools to use.
 
-This Skill helps an AI collaborator work across the fiction lifecycle:
+## What it does
 
-- Literary and narratological research
-- Story concepts, themes, plots, and long-form structure
-- Character psychology, motivation, relationships, and ensemble casts
-- Historical-fiction research and uncertainty tracking
-- Developmental, structural, stylistic, and copy editing
-- Text diagnosis, revision planning, and quality review
-- Reusable workflows and regression tests
+- Story conception, development, long-form outlines, and causal diagnostics
+- Character motivation, relationships, self-deception, ethical tension, and ensembles
+- Narrative time, focalization, voice, unreliable narration, pacing, and scene analysis
+- Historical and cultural research with explicit uncertainty labels
+- Developmental, structural, line/style, and copy editing
+- Creative drafting in the requested language while protecting voice
+- Comparative reading of classic novels, narratological theory, and editorial approaches
+- Repeatable quality tests and transparent limitations
 
-The Skill is a toolkit, not a universal writing formula. It should select methods according to the manuscript and the author's goals, explain the limits of its judgments, and preserve the author's final decision-making authority.
+## Literary foundations
 
-## Repository structure
+| Tradition | Selected examples | Writing and editing questions |
+|---|---|---|
+| Japanese | *The Tale of Genji*, Sōseki's *Kokoro*, Akutagawa's *In a Grove*, Tanizaki, Kawabata, period serial fiction | Relationship time, delayed confession, conflicting viewpoints, social detail, quiet scenes **and** plot-driven seriality |
+| Russian | Tolstoy, Dostoevsky, Chekhov, Bakhtin, Shklovsky, Propp | Large social worlds, competing voices, open endings, defamiliarization, limits of form-based models |
+| French | Flaubert, Balzac, Proust, Camus, Duras, Genette | Free indirect discourse, social causality, memory, narrative time, perspective and restraint |
+| Chinese and others | *Dream of the Red Chamber*, Lu Xun, Zhang Ailing, and further world literatures | Ensemble life, social history, idiom, genre, cultural specificity, cross-tradition counterexamples |
 
-```text
+For detailed working questions, caveats, and research links, see [International Literary Traditions](references/international-literary-traditions.md).
+
+## Repository layout
+
+\`\`\`text
 .
 ├── README.md
 ├── CHANGELOG.md
+├── references/
+│   └── international-literary-traditions.md
 ├── skills/
 │   └── fiction-writing-literary-editing/
 │       ├── SKILL.md
 │       └── README.md
 └── tests/
-    └── README.md
-```
+    ├── README.md
+    └── cross-tradition-evaluations.md
+\`\`\`
 
-## Install / use
+## Installation
 
-The canonical Skill file is:
+The canonical skill definition is at [skills/fiction-writing-literary-editing/SKILL.md](skills/fiction-writing-literary-editing/SKILL.md).
 
-`skills/fiction-writing-literary-editing/SKILL.md`
+For a ZIP importer that recognizes Agent Skills plugin content, ensure the archive includes:
 
-Use this directory in an environment that supports Agent Skills. For ChatGPT's plugin/skill importer, package the `skills/` directory so the archive contains a path matching:
+\`\`\`text
+skills/fiction-writing-literary-editing/SKILL.md
+\`\`\`
 
-`skills/fiction-writing-literary-editing/SKILL.md`
+This repository is a source of files. Publishing to GitHub does not by itself install the skill in ChatGPT or publish it to a plugin directory. Follow the target product's current installation rules.
 
-If the target environment has a dedicated Skills interface, follow that interface's current import instructions.
+## Example prompts
 
-## Working principles
+- "Assess the motivations and conflicting loyalties of my protagonists. Separate textual evidence, inference and editorial preference."
+- "Compare how *Kokoro*, a Dostoevsky novel, and Genette's narrative theory might help me decide when to reveal a betrayal. Explain which comparisons are weak."
+- "Examine this chapter for perspective shifts, timeline contradictions and the cost of each revision. Do not rewrite it yet."
+- "Write this scene in Chinese while keeping the characters' distinct speech and avoiding generic translated-English prose."
+- "Evaluate this historically set family drama against the correct local institutions, material culture and gender expectations; flag unverified facts."
 
-1. Theory serves the manuscript; no single theory is treated as universally binding.
-2. Separate textual facts, historical evidence, inference, and aesthetic preference.
-3. Do not invent sources, quotations, bibliographic details, or claims of having read material that was not actually examined.
-4. Diagnose before rewriting; prioritize structural and causal problems before sentence polishing.
-5. Preserve deliberate ambiguity, contradiction, non-linear structure, and unresolved endings when they serve the work.
-6. Test methods against actual manuscripts and record failure cases before promoting them to stable rules.
+## Editorial commitments
+
+1. No single plot model is mandatory.
+2. Criticism must point to text or credible evidence.
+3. Character contradictions can be artistically valid; convenient authorial inconsistency is a different issue.
+4. Historical, psychological, and cultural claims must not exceed their evidence.
+5. The author's final creative decision is authoritative.
+6. A famous novelist is a reference for careful comparison, not a license for imitation without thought.
 
 ## Validation status
 
-Version 1.0.0 is an initial synthesis of workflows and editorial principles. It is **not** a claim that every referenced theory or book has been exhaustively studied, nor that the Skill has passed a complete manuscript-validation program.
-
-See [the test plan](tests/README.md) for the proposed evaluation suite. Record observed results and update the Skill only when a method has demonstrated practical value.
-
-## Language
-
-The core Skill is written in Chinese. This repository's overview is in English to make the project easier to discover; the detailed instructions remain in Chinese.
+This is an **experimental research-and-method framework**, not a proven replacement for an expert editor. [Cross-tradition tests](tests/cross-tradition-evaluations.md) have been defined but **not yet executed**. Some bibliography entries are reading leads; their presence does not claim that full works have been read or verified line by line.
 
 ## License
 
-No open-source license has been selected yet. Until a license is added, the repository should not be treated as granting broad reuse rights by default.
+No license has been selected. Public visibility is not equivalent to an open-source license.
