@@ -1,6 +1,6 @@
 # Skill Evaluation Plan
 
-This directory defines how to test the fiction-writing and literary-editing skill. **No formal regression run has yet been completed.**
+This directory defines how to test the fiction-writing and literary-editing skill. **No formal blinded regression run has yet been completed.** One non-blind, self-evaluated exploratory run exists: [2026-11-03 Case Study 001](runs/2026-11-03-exploratory-001.md). It is preliminary evidence of workflow behavior, not a pass certificate.
 
 The evaluation is designed to check judgment, creative usefulness, manuscript grounding, research integrity, and cultural adaptability—not merely prompt compliance.
 
