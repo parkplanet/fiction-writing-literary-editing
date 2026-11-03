@@ -1,5 +1,14 @@
 # Changelog
 
+## [Unreleased] — Evaluation infrastructure, 2026-11-03
+
+- Added ten theory-neutral original calibration cases (six English, four Chinese).
+- Added an A/B protocol with matched model settings, isolated generations, independent judging, explicit false-positive measures, and source-backed bias controls.
+- Added a reusable scorecard template and a structural QA log.
+- Marked public calibration keys as unsuitable for true hidden blind testing.
+- No Skill performance gain or independent A/B verdict is claimed yet.
+
+
 ## [1.1.1] — 2026-11-03
 
 ### Research & exploratory evaluation
