@@ -1,18 +1,30 @@
 # Changelog
 
-本项目的重要变更记录。
+## [1.1.0] — 2026-11-03
 
-## [1.0.0] - 2026-11-03
+### Changed
+- Replaced Chinese-only core instructions with an English-language, multilingual, cross-cultural Skill.
+- Removed the single-novel validation vignette from the core Skill to avoid embedding project-specific assumptions.
+- Clarified that manuscripts should be drafted or edited in the author's language, preserving voice and local conventions.
+- Added explicit safeguards against national-literature stereotypes, formulaic structure and culturally inappropriate editorial norms.
 
 ### Added
-- 首个可复用的小说创作与文学编辑 Skill。
-- 小说构思、叙事理论、人物与群像、心理学工具、历史小说研究和文学编辑知识地图。
-- 面向长篇小说的作品模型、诊断、修订与复核流程。
-- 历史资料证据分级，以及编辑反馈的证据等级和修改优先级。
-- 文献来源纪律、实战验证要求和标准测试范围。
-- 《奉天雪》作为可选历史家族长篇验证案例。
+- Detailed working reference map for Japanese, Russian and French fiction and literary theory, with research links, methods, and caveats.
+- Cross-tradition evaluation suite testing narrative time, polyphony, late confession, quiet endings, historical uncertainty, and original-language voice.
+- Public documentation with clearer install structure and honest validation status.
 
-### Notes
-- 这是实验性基线版本，尚需通过真实手稿测试。
-- 不将理论数量或流程长度等同于专业质量。
-- 未选择开源许可证；在许可证明确前，不应将仓库视为授予广泛复用权。
+### Limits
+- The literature map is a curated initial synthesis; not all listed primary works or theoretical books have been read in full.
+- Evaluation cases are planned and have not passed formal testing.
+- No open-source license has been chosen.
+
+## [1.0.0] — 2026-11-03
+
+### Added
+- Initial Chinese-language fiction development and literary editing Skill.
+- Story modeling, character psychology, history research, editorial priority and evidence scales, source discipline, and quality-check workflow.
+- Initial proposed tests and optional historical family-novel case study.
+
+### Limitations identified after release
+- The core instructions were too closely tied to Chinese-language presentation and one historical fiction project.
+- International literary traditions were underrepresented in the project's public positioning.
