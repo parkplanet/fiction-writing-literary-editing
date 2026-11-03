@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.1.1] — 2026-11-03
+
+### Research & exploratory evaluation
+- Read selected primary-text passages of Akutagawa's *In a Grove* (Japanese), Chekhov's *The Lady with the Dog* (English translation), and Flaubert's *Madame Bovary* (French).
+- Documented one non-blind, self-evaluated exploratory run with three original Chinese-language test scenes: [Case Study 001](tests/runs/2026-11-03-exploratory-001.md).
+- Explicitly distinguished tentative findings from independent, reproducible validation.
+
+### Fixed
+- Distinguish a narrator's words and beliefs from established fictional-world facts.
+- Do not mistake deliberate contradictory testimonies for continuity errors.
+- Do not demand tidy resolution from an open ending.
+- Distinguish character-colored free indirect discourse from authorial endorsement.
+
+### Still pending
+- Independent editorial evaluation, unseen prompts and control-group comparison.
+- Direct Russian-language close reading for claims about Chekhov's prose style.
+
+
 ## [1.1.0] — 2026-11-03
 
 ### Changed
