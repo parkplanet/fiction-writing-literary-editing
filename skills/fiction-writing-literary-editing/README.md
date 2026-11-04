@@ -19,4 +19,6 @@ The repository root contains plugin.json and this skill at the portable path ski
 **Validation status:** One exploratory self-evaluated exercise is documented. Independent blinded validation remains pending.
 
 **Scope:** This Skill is not tied to one national literature, one genre, or one manuscript. It must not embed any author's private project as a universal rule.
+## License
 
+The original Skill instructions and documentation are licensed under [CC BY 4.0](../../LICENSE). Attribution: Park Planet. If you share or adapt this material, credit the source, link to the license, and indicate changes.
