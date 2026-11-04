@@ -1,23 +1,44 @@
 # Fiction Writing & Literary Editing
 
+[English](README.md) · [简体中文](README.zh-CN.md)
+
 **A multilingual, cross-cultural AI skill for novelists, short-story writers, and literary researchers.**
 
 <sub>Version 1.1.2 · Experimental · English core instructions · Works in the author's chosen language</sub>
 
 ## Install
 
-Install this Skill using the open-source Skills CLI.
+Install this Skill with the open-source [Skills CLI](https://www.skills.sh/docs/cli). **Requires Node.js 22.20 or later.**
 
-**Quick install:**
+**Quick install (interactive):**
 
 ```bash
-npx skills add parkplanet/fiction-writing-literary-editing --skill fiction-writing-literary-editing
+npx skills add parkplanet/fiction-writing-literary-editing
+```
+
+The CLI will let you choose the Skill and the agent(s) to install it for.
+
+**Install directly for Claude Code:**
+
+```bash
+npx skills add parkplanet/fiction-writing-literary-editing --skill fiction-writing-literary-editing -a claude-code -y
+```
+
+**Install directly for Codex:**
+
+```bash
+npx skills add parkplanet/fiction-writing-literary-editing --skill fiction-writing-literary-editing -a codex -y
+```
+
+Run the command from your project directory to install the Skill for that project. Add `-g` if you want a global installation. See the [CLI reference](https://www.skills.sh/docs/cli) for other agents and options.
+
+**About installation telemetry:** The Skills CLI collects anonymous installation telemetry by default to help power the skills.sh leaderboard. You can opt out by setting `DISABLE_TELEMETRY=1`.
+
+## What the Skill can help with
 
 Develop fiction with a more independent and evidence-aware AI collaborator. This Skill supports story development, character psychology, narrative analysis, historical and cultural research, manuscript critique, and revision—without forcing every work into the same plot formula or national style.
 
 It draws comparative methods from **Japanese, Russian, French, Chinese, and other world literatures**. The purpose is not to imitate a famous author or collect literary names. It is to select a method that genuinely serves the manuscript, explain its limits, and protect the writer's voice.
-
-## What the Skill can help with
 
 - **Develop a novel:** premise, themes, long-form architecture, chronology, causal chains, subplots, and turning points.
 - **Build complex characters:** desires, fears, self-deception, competing loyalties, relationships, agency, and consequences.
@@ -62,13 +83,13 @@ Example prompts:
 
 ## Installable package
 
-This repository now includes an Agent Plugins manifest at the root:
+This repository includes an Agent Plugins manifest at the root:
 
-- plugin.json
-- skills/fiction-writing-literary-editing/SKILL.md
-- references/international-literary-traditions.md
+- `plugin.json`
+- `skills/fiction-writing-literary-editing/SKILL.md`
+- `references/international-literary-traditions.md`
 
-The repository ZIP has the expected single-plugin structure: one root manifest and one portable skill under skills/<skill-name>/SKILL.md. Use the import flow provided by the target host. Saving this package to GitHub does **not** automatically install it in ChatGPT or publish it to a public plugin directory.
+The repository ZIP has a single-plugin structure: one root manifest and one portable Skill under `skills/<skill-name>/SKILL.md`. Use the import flow provided by the target host. Publishing this package on GitHub does **not** automatically install it in ChatGPT or publish it to a public plugin directory.
 
 ## Evaluation status
 
@@ -78,7 +99,7 @@ Some works in the reference map are reading leads, not claims of complete close 
 
 ## Repository structure
 
-\`\`\`text
+```text
 .
 ├── plugin.json
 ├── README.md
@@ -95,8 +116,8 @@ Some works in the reference map are reading leads, not claims of complete close 
     ├── ab-evaluation-protocol.md
     ├── cross-tradition-evaluations.md
     └── runs/
-\`\`\`
+```
 
 ## License
 
-No open-source license has been selected. Public repository visibility does not itself grant permission to reuse, redistribute, or modify the contents.
+No license file has been published yet. Until a license is added, public repository visibility alone does not grant permission to reuse, redistribute, or modify the contents.
