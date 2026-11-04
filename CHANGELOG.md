@@ -9,6 +9,7 @@
 - Clarified P0 as an **unintended** critical continuity contradiction or material factual error, protecting deliberate conflicting testimony from automatic false-positive labeling.
 - Rewrote the English project introduction for a global audience and added a full Chinese introduction.
 - Updated the skill directory README with installation, scope and validation status.
+- Published the repository's original content under CC BY 4.0 and added attribution guidance to both language READMEs.
 
 ### Validation
 - Manifest and skill package structure are being checked before upload.
