@@ -4,6 +4,15 @@
 
 <sub>Version 1.1.2 · Experimental · English core instructions · Works in the author's chosen language</sub>
 
+## Install
+
+Install this Skill using the open-source Skills CLI.
+
+**Quick install:**
+
+```bash
+npx skills add parkplanet/fiction-writing-literary-editing --skill fiction-writing-literary-editing
+
 Develop fiction with a more independent and evidence-aware AI collaborator. This Skill supports story development, character psychology, narrative analysis, historical and cultural research, manuscript critique, and revision—without forcing every work into the same plot formula or national style.
 
 It draws comparative methods from **Japanese, Russian, French, Chinese, and other world literatures**. The purpose is not to imitate a famous author or collect literary names. It is to select a method that genuinely serves the manuscript, explain its limits, and protect the writer's voice.
