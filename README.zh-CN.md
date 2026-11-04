@@ -1,5 +1,7 @@
 # 小说创作与文学编辑 · Fiction Writing & Literary Editing
 
+[English](README.md) · [简体中文](README.zh-CN.md)
+
 **面向全球小说创作者的多语言、跨文化 AI 创作与文学编辑 Skill。**
 
 > 版本：1.1.2 · 实验版 · 英文核心指令 · 支持作者指定的创作语言
@@ -9,6 +11,34 @@
 它面向长篇小说、短篇小说、历史小说、类型小说和文学研究，帮助创作者开展故事构思、人物塑造、叙事分析、历史考据、文本诊断与修改。
 
 研究框架重点参考**日本、俄罗斯、法国、中国及其他世界文学传统**。核心目标不是模仿某位名家，而是理解具体作品使用了什么方法、这些方法解决了什么问题、有什么局限，以及是否适合当前作品。
+
+## 安装
+
+使用开源 [Skills CLI](https://www.skills.sh/docs/cli) 安装。**需要 Node.js 22.20 或更新版本。**
+
+**快速安装（交互式）：**
+
+```bash
+npx skills add parkplanet/fiction-writing-literary-editing
+```
+
+运行后，按照提示选择本 Skill 和要安装到的 AI Agent。
+
+**安装到 Claude Code：**
+
+```bash
+npx skills add parkplanet/fiction-writing-literary-editing --skill fiction-writing-literary-editing -a claude-code -y
+```
+
+**安装到 Codex：**
+
+```bash
+npx skills add parkplanet/fiction-writing-literary-editing --skill fiction-writing-literary-editing -a codex -y
+```
+
+在项目目录中运行，默认安装到当前项目。添加 `-g` 可以进行全局安装。其他 Agent 和参数请查看 [Skills CLI 官方文档](https://www.skills.sh/docs/cli)。
+
+**关于安装统计：** Skills CLI 默认会收集匿名安装遥测数据，用于 skills.sh 排行榜统计。用户可以通过设置环境变量 `DISABLE_TELEMETRY=1` 选择退出。
 
 ## 能做什么
 
@@ -55,13 +85,13 @@
 
 ## 安装包
 
-仓库根目录现已加入 Agent Plugins 格式清单：
+仓库根目录包含 Agent Plugins 格式清单：
 
-- plugin.json
-- skills/fiction-writing-literary-editing/SKILL.md
-- references/international-literary-traditions.md
+- `plugin.json`
+- `skills/fiction-writing-literary-editing/SKILL.md`
+- `references/international-literary-traditions.md`
 
-仓库 ZIP 采用单一插件结构：根目录清单文件，以及 skills/技能名/SKILL.md。可以通过目标平台支持的插件导入流程上传。仅仅上传到 GitHub，不代表已经自动安装到 ChatGPT，也不代表已经进入公开插件目录。
+仓库 ZIP 采用单一插件结构：根目录清单文件，以及 `skills/<skill-name>/SKILL.md`。可以通过目标平台支持的导入流程上传。仅仅上传到 GitHub，不代表已经自动安装到 ChatGPT，也不代表已经进入公开插件目录。
 
 ## 当前验证状态
 
@@ -73,4 +103,4 @@
 
 ## 许可证
 
-目前尚未选择开源许可证。仓库公开不等于自动授予他人复制、修改或再分发的权利。
+目前仓库尚未发布许可证文件。仓库公开不等于自动授予他人复制、修改或再分发内容的权利。
