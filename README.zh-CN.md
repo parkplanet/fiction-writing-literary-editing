@@ -103,4 +103,12 @@ npx skills add parkplanet/fiction-writing-literary-editing --skill fiction-writi
 
 ## 许可证
 
-目前仓库尚未发布许可证文件。仓库公开不等于自动授予他人复制、修改或再分发内容的权利。
+除非另有明确说明，本仓库中的原创内容——包括 Skill 指令、文档、研究笔记、评测材料和项目元数据——均采用 **知识共享署名 4.0 国际许可协议（CC BY 4.0）**。详见 [LICENSE 文件](LICENSE) 和 [许可证法律全文](https://creativecommons.org/licenses/by/4.0/legalcode)。
+
+你可以转载、分享、翻译、改编这些授权内容，也可以用于商业用途，但必须给予适当署名、附上许可证链接，并说明是否进行过修改。
+
+建议署名格式：
+
+> “Fiction Writing & Literary Editing” by Park Planet，来源：[GitHub 仓库](https://github.com/parkplanet/fiction-writing-literary-editing)，采用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 许可。修改说明：[填写修改内容]。
+
+第三方材料、外部资源、名称、商标、标识，以及明确标注为排除在许可范围之外的内容，不受本许可证覆盖。CC BY 4.0 不授予商标或专利权，也不代表原作者为使用者背书。
