@@ -1,40 +1,79 @@
 # Fiction Writing & Literary Editing
 
-**An open, multilingual AI skill for serious fiction writing, literary research, and manuscript editing.**
+**A multilingual, cross-cultural AI skill for novelists, short-story writers, and literary researchers.**
 
-> Version **1.1.1** · Experimental · Core instructions in English · Works with fiction in any language
+<sub>Version 1.1.2 · Experimental · English core instructions · Works in the author's chosen language</sub>
 
-This skill helps AI collaborators research literary approaches, develop stories and characters, analyze narrative form, diagnose manuscript problems, and revise prose with evidence-based, independent judgment.
+Develop fiction with a more independent and evidence-aware AI collaborator. This Skill supports story development, character psychology, narrative analysis, historical and cultural research, manuscript critique, and revision—without forcing every work into the same plot formula or national style.
 
-It is **not a Chinese-only writing assistant**, **not an English-only style guide**, and **not a universal formula for successful novels**. Its source materials and methods draw on Japanese, Russian, French, Chinese, and other literary traditions. The actual manuscript and the author's artistic goals determine which tools to use.
+It draws comparative methods from **Japanese, Russian, French, Chinese, and other world literatures**. The purpose is not to imitate a famous author or collect literary names. It is to select a method that genuinely serves the manuscript, explain its limits, and protect the writer's voice.
 
-## What it does
+## What the Skill can help with
 
-- Story conception, development, long-form outlines, and causal diagnostics
-- Character motivation, relationships, self-deception, ethical tension, and ensembles
-- Narrative time, focalization, voice, unreliable narration, pacing, and scene analysis
-- Historical and cultural research with explicit uncertainty labels
-- Developmental, structural, line/style, and copy editing
-- Creative drafting in the requested language while protecting voice
-- Comparative reading of classic novels, narratological theory, and editorial approaches
-- Repeatable quality tests and transparent limitations
+- **Develop a novel:** premise, themes, long-form architecture, chronology, causal chains, subplots, and turning points.
+- **Build complex characters:** desires, fears, self-deception, competing loyalties, relationships, agency, and consequences.
+- **Analyze narration:** viewpoint, focalization, narrator reliability, narrative time, memory, silence, dialogue, and information release.
+- **Research a setting:** period-specific institutions, economics, family structures, material culture, language, and historical uncertainty.
+- **Edit manuscripts:** developmental, structural, line/style, continuity, and copy-editing feedback.
+- **Write and revise:** scenes, chapters, dialogue, and prose in the author's requested language.
+- **Study literary methods:** compare works and theories, retain disagreements, test counterexamples, and avoid mechanical imitation.
 
-## Literary foundations
+## Literary traditions in the research map
 
-| Tradition | Selected examples | Writing and editing questions |
+| Tradition | Selected writers and thinkers | Useful questions |
 |---|---|---|
-| Japanese | *The Tale of Genji*, Sōseki's *Kokoro*, Akutagawa's *In a Grove*, Tanizaki, Kawabata, period serial fiction | Relationship time, delayed confession, conflicting viewpoints, social detail, quiet scenes **and** plot-driven seriality |
-| Russian | Tolstoy, Dostoevsky, Chekhov, Bakhtin, Shklovsky, Propp | Large social worlds, competing voices, open endings, defamiliarization, limits of form-based models |
-| French | Flaubert, Balzac, Proust, Camus, Duras, Genette | Free indirect discourse, social causality, memory, narrative time, perspective and restraint |
-| Chinese and others | *Dream of the Red Chamber*, Lu Xun, Zhang Ailing, and further world literatures | Ensemble life, social history, idiom, genre, cultural specificity, cross-tradition counterexamples |
+| Japanese | Murasaki Shikibu, Natsume Sōseki, Akutagawa, Tanizaki, Kawabata | Relationship time, delayed confession, testimony, social detail, silence—and plot-driven period fiction |
+| Russian | Tolstoy, Dostoevsky, Chekhov, Bakhtin, Shklovsky, Propp | Social worlds, competing consciousnesses, open endings, defamiliarization, and the limits of structural models |
+| French | Flaubert, Balzac, Proust, Camus, Duras, Genette, Barthes, Todorov | Free indirect discourse, social causality, memory, narrative time, perspective, and irony |
+| Chinese and other traditions | Dream of the Red Chamber, Lu Xun, Zhang Ailing, Shen Congwen, Xiao Hong, and wider world literatures | Family and social systems, historical texture, language register, genre, and cultural specificity |
 
-For detailed working questions, caveats, and research links, see [International Literary Traditions](references/international-literary-traditions.md).
+See the [International Literary Traditions research map](references/international-literary-traditions.md) for methods, research anchors, caveats, and further questions.
 
-## Repository layout
+## How to use it
 
-```text
+You can work in **Chinese, English, Japanese, French, Russian, or another language**. The Skill's instructions are in English for portability and discoverability; the actual response should follow the author's requested language.
+
+Example prompts:
+
+- "Help me develop a novel outline. Test the causal links and identify where character choices feel unearned."
+- "Critique this scene without rewriting it. Separate textual facts, interpretation, and aesthetic preference."
+- "Compare several literary approaches to this specific problem, including counterexamples and the cost of each approach."
+- "Revise this Chinese dialogue while preserving each character's register and rhythm."
+- "Check the historical plausibility of this setting. Mark claims as verified, context-dependent, disputed, or unknown."
+
+## Editorial principles
+
+1. **Theory is a lens, not a law.** No mandatory three-act structure, hero's journey, conflict-per-scene rule, or compulsory character transformation.
+2. **Text before template.** Significant criticism should point to actual passages, project constraints, or credible research.
+3. **People before plot machinery.** Characters can be proud, compromised, inconsistent, mistaken, or unchanged when the work supports it.
+4. **Ambiguity is not automatically an error.** Unreliable accounts, open endings, silence, nonlinear chronology, and unresolved moral tensions may be deliberate strengths.
+5. **No cultural shortcuts.** A national literature is not one style. Compare particular texts, periods, genres, and writers.
+6. **No invented scholarship.** Do not claim full-book reading, quotations, historical facts, or source verification that did not occur.
+7. **The author remains in charge.** Give honest criticism, alternatives, and trade-offs; do not silently turn suggestions into canon.
+
+## Installable package
+
+This repository now includes an Agent Plugins manifest at the root:
+
+- plugin.json
+- skills/fiction-writing-literary-editing/SKILL.md
+- references/international-literary-traditions.md
+
+The repository ZIP has the expected single-plugin structure: one root manifest and one portable skill under skills/<skill-name>/SKILL.md. Use the import flow provided by the target host. Saving this package to GitHub does **not** automatically install it in ChatGPT or publish it to a public plugin directory.
+
+## Evaluation status
+
+This is an **experimental research-and-method framework**, not a proven replacement for an experienced editor. One exploratory self-evaluated exercise and a public calibration suite are documented; independent, blinded A/B validation remains pending. Public test cases are not hidden benchmarks. See the [test plan](tests/README.md), [A/B protocol](tests/ab-evaluation-protocol.md), and [exploratory case study](tests/runs/2026-11-03-exploratory-001.md).
+
+Some works in the reference map are reading leads, not claims of complete close reading. Detailed interpretations must be verified against the relevant text and scholarship.
+
+## Repository structure
+
+\`\`\`text
 .
+├── plugin.json
 ├── README.md
+├── README.zh-CN.md
 ├── CHANGELOG.md
 ├── references/
 │   └── international-literary-traditions.md
@@ -43,47 +82,12 @@ For detailed working questions, caveats, and research links, see [International 
 │       ├── SKILL.md
 │       └── README.md
 └── tests/
-    ├── README.md
-    └── cross-tradition-evaluations.md
-```
-
-## Installation
-
-The canonical skill definition is at [skills/fiction-writing-literary-editing/SKILL.md](skills/fiction-writing-literary-editing/SKILL.md).
-
-For a ZIP importer that recognizes Agent Skills plugin content, ensure the archive includes:
-
-```text
-skills/fiction-writing-literary-editing/SKILL.md
-```
-
-This repository is a source of files. Publishing to GitHub does not by itself install the skill in ChatGPT or publish it to a plugin directory. Follow the target product's current installation rules.
-
-## Example prompts
-
-- "Assess the motivations and conflicting loyalties of my protagonists. Separate textual evidence, inference and editorial preference."
-- "Compare how *Kokoro*, a Dostoevsky novel, and Genette's narrative theory might help me decide when to reveal a betrayal. Explain which comparisons are weak."
-- "Examine this chapter for perspective shifts, timeline contradictions and the cost of each revision. Do not rewrite it yet."
-- "Write this scene in Chinese while keeping the characters' distinct speech and avoiding generic translated-English prose."
-- "Evaluate this historically set family drama against the correct local institutions, material culture and gender expectations; flag unverified facts."
-
-## Editorial commitments
-
-1. No single plot model is mandatory.
-2. Criticism must point to text or credible evidence.
-3. Character contradictions can be artistically valid; convenient authorial inconsistency is a different issue.
-4. Historical, psychological, and cultural claims must not exceed their evidence.
-5. The author's final creative decision is authoritative.
-6. A famous novelist is a reference for careful comparison, not a license for imitation without thought.
-
-## Validation status
-
-This is an **experimental research-and-method framework**, not a proven replacement for an expert editor. [One exploratory self-evaluated test run](tests/runs/2026-11-03-exploratory-001.md) has been documented using three original cases; this is **not independent or blinded validation**. Additional [cross-tradition tests](tests/cross-tradition-evaluations.md) remain planned. Some bibliography entries are reading leads; their presence does not claim that full works have been read or verified line by line.
+    ├── calibration-v01.md
+    ├── ab-evaluation-protocol.md
+    ├── cross-tradition-evaluations.md
+    └── runs/
+\`\`\`
 
 ## License
 
-No license has been selected. Public visibility is not equivalent to an open-source license.
-
-### Evaluation materials
-
-The [public calibration set](tests/calibration-v01.md) supplies ten original diagnostic tasks, while the [A/B evaluation protocol](tests/ab-evaluation-protocol.md) defines what would count as independent comparative evidence. A [fixture preflight check](tests/runs/2026-11-03-calibration-preflight.md) confirms structural consistency but **not model performance**. Neither GitHub pageviews nor a polished response is a measure of editorial competence.
+No open-source license has been selected. Public repository visibility does not itself grant permission to reuse, redistribute, or modify the contents.
