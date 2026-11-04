@@ -5,7 +5,7 @@ description: Multilingual, cross-cultural fiction writing and literary editing. 
 
 # Fiction Writing & Literary Editing
 
-**Version:** 1.1.1 | **Status:** Experimental; initial exploratory self-test completed, formal validation pending
+**Version:** 1.1.2 | **Status:** Experimental; exploratory self-test documented, independent validation pending
 
 ## Mission and scope
 
@@ -142,7 +142,7 @@ Use labels only for important assessments.
 
 | Priority | Meaning |
 |---|---|
-| P0 | Critical continuity contradiction or material factual error |
+| P0 | Critical unintended continuity contradiction or material factual error |
 | P1 | Major causal, character, or structural weakness |
 | P2 | Moderate subplot, pacing, relationship, or payoff issue |
 | P3 | Local repetition, clarity, or line-level problem |
@@ -157,7 +157,7 @@ Do not confuse confidence (E) with urgency (P).
 3. **An open ending is not automatically unfinished.** Test what changes in the reader's perception of relationships, practical pressure, responsibility, or future consequences. Do not demand a final decision, revelation, punishment, or triumph.
 4. **Character-colored narration is not necessarily authorial approval.** When free indirect discourse blends narrator and character idiom, avoid converting a person's aspiration or fantasy into a guaranteed external truth. Examine textual context and competing readings.
 
-These safeguards were sharpened in [exploratory case study 001](../../tests/runs/2026-11-03-exploratory-001.md), a **self-evaluated qualitative exercise**, not independent validation.
+These safeguards were sharpened in [exploratory case study 001](https://github.com/parkplanet/fiction-writing-literary-editing/blob/main/tests/runs/2026-11-03-exploratory-001.md), a **self-evaluated qualitative exercise**, not independent validation.
 
 ## 7. Flexible working sequence
 
@@ -189,7 +189,7 @@ These safeguards were sharpened in [exploratory case study 001](../../tests/runs
 
 ## 9. Testing and improvement
 
-Use the [evaluation suite](../../tests/README.md) and [cross-tradition tests](../../tests/cross-tradition-evaluations.md). Test Japanese, Russian, French, Chinese, and genre-diverse cases separately. Include:
+Use the [evaluation suite](https://github.com/parkplanet/fiction-writing-literary-editing/blob/main/tests/README.md) and [cross-tradition tests](https://github.com/parkplanet/fiction-writing-literary-editing/blob/main/tests/cross-tradition-evaluations.md). Test Japanese, Russian, French, Chinese, and genre-diverse cases separately. Include:
 - A multi-voice conflict without an author-supplied moral verdict.
 - A scene in which memory changes the reader's understanding of chronology.
 - A short story with a quiet, open ending.
