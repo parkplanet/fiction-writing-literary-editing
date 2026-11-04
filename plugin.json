@@ -1,0 +1,38 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "fiction-writing-literary-editing",
+  "version": "1.1.2",
+  "description": "A multilingual, cross-cultural AI skill for fiction writing, literary research, novel development, and manuscript editing.",
+  "homepage": "https://github.com/parkplanet/fiction-writing-literary-editing",
+  "repository": "https://github.com/parkplanet/fiction-writing-literary-editing",
+  "author": {
+    "name": "Park Planet"
+  },
+  "keywords": [
+    "fiction-writing",
+    "literary-editing",
+    "novel-writing",
+    "creative-writing",
+    "narratology",
+    "multilingual",
+    "literary-research",
+    "story-development"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Fiction Writing & Literary Editing",
+        "shortDescription": "Multilingual fiction editor",
+        "longDescription": "An experimental multilingual AI writing and editing skill for novelists, short-story writers, and literary researchers. Develop story premises, plot causality, character psychology, narrative voice, point of view, pacing, dialogue, and revision plans. Compare methods from Japanese, Russian, French, Chinese, and other literary traditions without treating any culture or theory as a formula. Work in the author's chosen language. Separate textual evidence, historical research, inference, and aesthetic preference. Supports brainstorming, outlining, drafting, critique, revision, and literary study. It is a research-and-method assistant, not a substitute for independent fact-checking or an experienced human editor.",
+        "developerName": "Park Planet",
+        "category": "Creativity",
+        "capabilities": [],
+        "defaultPrompt": [
+          "Help me develop a novel and test its characters, causality, and structure.",
+          "Critique this scene without rewriting it; separate evidence from interpretation.",
+          "Compare literary methods across traditions for this specific writing problem."
+        ]
+      }
+    }
+  }
+}
