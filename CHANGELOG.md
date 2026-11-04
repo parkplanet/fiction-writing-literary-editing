@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.1.2] — 2026-11-04
+
+### Repackaged and reintroduced
+- Added a root Agent Plugins 1.0 manifest so the repository has a recognized portable plugin structure.
+- Prepared the installable skill path at skills/fiction-writing-literary-editing/SKILL.md.
+- Updated the skill to version 1.1.2 and changed test references to stable GitHub links so the portable package does not depend on repository-relative files outside the package.
+- Clarified P0 as an **unintended** critical continuity contradiction or material factual error, protecting deliberate conflicting testimony from automatic false-positive labeling.
+- Rewrote the English project introduction for a global audience and added a full Chinese introduction.
+- Updated the skill directory README with installation, scope and validation status.
+
+### Validation
+- Manifest and skill package structure are being checked before upload.
+- Existing exploratory and calibration tests remain preliminary; independent blinded A/B validation is still pending.
+- GitHub publication does not itself install the plugin in ChatGPT or publish it to the public directory.
+
+
 ## [Unreleased] — Evaluation infrastructure, 2026-11-03
 
 - Added ten theory-neutral original calibration cases (six English, four Chinese).
