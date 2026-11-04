@@ -120,4 +120,12 @@ Some works in the reference map are reading leads, not claims of complete close 
 
 ## License
 
-No license file has been published yet. Until a license is added, public repository visibility alone does not grant permission to reuse, redistribute, or modify the contents.
+Unless otherwise noted, the original content in this repository—including the Skill instructions, documentation, research notes, evaluation materials, and package metadata—is licensed under **Creative Commons Attribution 4.0 International (CC BY 4.0)**. See the [LICENSE](LICENSE) file and the [full legal code](https://creativecommons.org/licenses/by/4.0/legalcode).
+
+You may share and adapt the licensed material, including for commercial purposes, provided you give appropriate credit, link to the license, and indicate whether changes were made.
+
+Suggested attribution:
+
+> "Fiction Writing & Literary Editing" by Park Planet, [source repository](https://github.com/parkplanet/fiction-writing-literary-editing), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Changes: [describe changes].
+
+Third-party material, external resources, names, trademarks, logos, and content explicitly identified as excluded are not covered by this license. CC BY 4.0 does not grant trademark or patent rights or imply endorsement.
