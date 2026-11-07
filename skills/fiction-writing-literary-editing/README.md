@@ -5,7 +5,7 @@
 This is the portable skill component for multilingual fiction writing and literary editing.
 
 - SKILL.md — English core instructions; work in the author's requested language.
-- International literary traditions — Japanese, Russian, French, Chinese and other comparative research.
+- International literary traditions — [reference map](references/international-literary-traditions.md) covering Japanese, Russian, French, Chinese and other comparative research.
 - Evaluation plan — current test design and validation status.
 
 ## Intended uses
@@ -21,4 +21,4 @@ The repository root contains plugin.json and this skill at the portable path ski
 **Scope:** This Skill is not tied to one national literature, one genre, or one manuscript. It must not embed any author's private project as a universal rule.
 ## License
 
-The original Skill instructions and documentation are licensed under [CC BY 4.0](../../LICENSE). Attribution: Park Planet. If you share or adapt this material, credit the source, link to the license, and indicate changes.
+The original Skill instructions and documentation are licensed under [CC BY 4.0](https://github.com/parkplanet/fiction-writing-literary-editing/blob/main/LICENSE). Attribution: Park Planet. If you share or adapt this material, credit the source, link to the license, and indicate changes.

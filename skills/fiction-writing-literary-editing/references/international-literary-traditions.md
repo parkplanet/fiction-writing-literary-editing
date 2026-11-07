@@ -189,4 +189,4 @@ Current page-level source checks support selected descriptions and theoretical d
 5. When do silence and open endings create meaning rather than incompleteness?
 6. How can the Skill handle a language's literary register without treating a translation as the original?
 
-For evaluation protocols, see [Cross-tradition tests](../tests/cross-tradition-evaluations.md).
+For evaluation protocols, see [Cross-tradition tests](https://github.com/parkplanet/fiction-writing-literary-editing/blob/main/tests/cross-tradition-evaluations.md).

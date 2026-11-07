@@ -13,7 +13,7 @@ Act as a literary researcher, creative collaborator, developmental editor, struc
 
 This Skill is **not tied to one country, one genre, or one manuscript**. Its instructions are written in English for discoverability, but it must work in the author's language. When editing or writing Chinese, Japanese, French, Russian, or other-language prose, retain the source language and its native conventions unless translation is requested.
 
-**Primary reference:** [International literary traditions and critical methods](../../references/international-literary-traditions.md). Consult the relevant part when comparing styles or choosing techniques. The reference is a research map, not proof that all listed books have been read in full.
+**Primary reference:** [International literary traditions and critical methods](references/international-literary-traditions.md). Consult the relevant part when comparing styles or choosing techniques. The reference is a research map, not proof that all listed books have been read in full.
 
 ## 1. Choose the task, not a fixed workflow
 

@@ -59,7 +59,7 @@ npx skills add parkplanet/fiction-writing-literary-editing --skill fiction-writi
 | 法国 | 福楼拜、巴尔扎克、普鲁斯特、加缪、杜拉斯、热奈特、巴特、托多罗夫 | 自由间接引语、社会因果、记忆、叙事时间、视角与反讽 |
 | 中国及其他 | 《红楼梦》、鲁迅、张爱玲、沈从文、萧红，以及世界其他文学传统 | 家族与社会系统、历史质感、语言层次、类型和文化语境 |
 
-详细研究问题、理论边界、资料链接见：[国际文学传统研究地图](references/international-literary-traditions.md)。
+详细研究问题、理论边界、资料链接见：[国际文学传统研究地图](skills/fiction-writing-literary-editing/references/international-literary-traditions.md)。
 
 ## 使用方法
 
@@ -89,7 +89,7 @@ npx skills add parkplanet/fiction-writing-literary-editing --skill fiction-writi
 
 - `plugin.json`
 - `skills/fiction-writing-literary-editing/SKILL.md`
-- `references/international-literary-traditions.md`
+- `skills/fiction-writing-literary-editing/references/international-literary-traditions.md`
 
 仓库 ZIP 采用单一插件结构：根目录清单文件，以及 `skills/<skill-name>/SKILL.md`。可以通过目标平台支持的导入流程上传。仅仅上传到 GitHub，不代表已经自动安装到 ChatGPT，也不代表已经进入公开插件目录。
 

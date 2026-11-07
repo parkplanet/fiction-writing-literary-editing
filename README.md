@@ -57,7 +57,7 @@ It draws comparative methods from **Japanese, Russian, French, Chinese, and othe
 | French | Flaubert, Balzac, Proust, Camus, Duras, Genette, Barthes, Todorov | Free indirect discourse, social causality, memory, narrative time, perspective, and irony |
 | Chinese and other traditions | Dream of the Red Chamber, Lu Xun, Zhang Ailing, Shen Congwen, Xiao Hong, and wider world literatures | Family and social systems, historical texture, language register, genre, and cultural specificity |
 
-See the [International Literary Traditions research map](references/international-literary-traditions.md) for methods, research anchors, caveats, and further questions.
+See the [International Literary Traditions research map](skills/fiction-writing-literary-editing/references/international-literary-traditions.md) for methods, research anchors, caveats, and further questions.
 
 ## How to use it
 
@@ -87,7 +87,7 @@ This repository includes an Agent Plugins manifest at the root:
 
 - `plugin.json`
 - `skills/fiction-writing-literary-editing/SKILL.md`
-- `references/international-literary-traditions.md`
+- `skills/fiction-writing-literary-editing/references/international-literary-traditions.md`
 
 The repository ZIP has a single-plugin structure: one root manifest and one portable Skill under `skills/<skill-name>/SKILL.md`. Use the import flow provided by the target host. Publishing this package on GitHub does **not** automatically install it in ChatGPT or publish it to a public plugin directory.
 
@@ -105,12 +105,12 @@ Some works in the reference map are reading leads, not claims of complete close 
 ├── README.md
 ├── README.zh-CN.md
 ├── CHANGELOG.md
-├── references/
-│   └── international-literary-traditions.md
 ├── skills/
 │   └── fiction-writing-literary-editing/
 │       ├── SKILL.md
-│       └── README.md
+│       ├── README.md
+│       └── references/
+│           └── international-literary-traditions.md
 └── tests/
     ├── calibration-v01.md
     ├── ab-evaluation-protocol.md
