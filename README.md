@@ -34,6 +34,18 @@ Run the command from your project directory to install the Skill for that projec
 
 **About installation telemetry:** The Skills CLI collects anonymous installation telemetry by default to help power the skills.sh leaderboard. You can opt out by setting `DISABLE_TELEMETRY=1`.
 
+## Try it in 60 seconds
+
+After installing, give your AI agent this short editorial challenge:
+
+> **Author's aim:** A realist family story with an unresolved ending.
+>
+> **Excerpt:** "The printing press had stood idle for three weeks. When Mira suggested selling it, her brother said it was their only way to repay the bank. Their mother placed the house deed on the table. 'I can give you six months,' she said. Mira knew it was the only place their father could still afford to live. Outside, a customer knocked on the locked shop door."
+>
+> **Task:** Act as a developmental editor. Identify at most two consequential issues, if any. Separate textual facts from interpretations, assess each family member's independent stake, and offer revision options with trade-offs. Do not invent prices or backstory. Do not force the ending to resolve.
+
+A useful response should notice the competing financial and personal stakes, distinguish uncertainty from error, and protect the author's chosen ambiguity. This is an **illustrative prompt**, not evidence of measured Skill performance. For actual evaluation materials, see the [public calibration cases](tests/calibration-v01.md) and [testing plan](tests/README.md).
+
 ## What the Skill can help with
 
 Develop fiction with a more independent and evidence-aware AI collaborator. This Skill supports story development, character psychology, narrative analysis, historical and cultural research, manuscript critique, and revision—without forcing every work into the same plot formula or national style.
